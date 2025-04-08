@@ -29,7 +29,7 @@ const Main = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className={`w-auto h-48 rounded-lg bg-[url('/src/assets/${project.image}')] bg-center bg-cover bg-no-repeat shadow-sm flex flex-col justify-end`}
+              className={`w-auto h-48 rounded-lg bg-[url('${project.image}')] bg-center bg-cover bg-no-repeat shadow-sm flex flex-col justify-end`}
             >
               <div className="w-full bg-black/45 rounded-b-lg">
                 <Link
