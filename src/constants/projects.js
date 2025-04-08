@@ -3,18 +3,18 @@ export const projects = [
     id: 0,
     title: "HeyCenter",
     link: "https://hey-center.vercel.app/",
-    image: 'chat.webp'
+    image: 'chat.jpg'
   },
   {
     id: 1,
     title: "Izea",
     link: "https://izea.vercel.app/",
-    image: 'izea.webp'
+    image: 'izea.jpg'
   },
   {
     id: 2,
     title: "EIM",
     link: "https://eim.vercel.app/",
-    image: 'iem.webp'
+    image: 'iem.jpg'
   },
 ];
