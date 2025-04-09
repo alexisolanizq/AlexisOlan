@@ -33,7 +33,7 @@ const Header = ({ setOpenMenu = () => {}, openMenu, scroll, setScroll }) => {
 
   return (
     <header
-      className={`fixed w-full z-y0 ${
+      className={`fixed w-full z-10 ${
         scroll && "shadow-md bg-white/20 dark:bg-slate-900/50 backdrop-blur-lg"
       }`}
     >

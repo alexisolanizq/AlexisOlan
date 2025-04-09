@@ -27,11 +27,13 @@ const Main = () => {
         </h2>
         <div className="mt-6 grid grid-cols-[repeat(auto-fit,_minmax(245px,1fr))] gap-12">
           {projects.map((project) => (
-            <div
-              key={project.id}
-              className={`w-auto h-48 rounded-lg bg-[url('${project.image}')] bg-center bg-cover bg-no-repeat shadow-sm flex flex-col justify-end`}
-            >
-              <div className="w-full bg-black/45 rounded-b-lg">
+            <div key={project.id} className="relative z-0">
+              <img
+                src={project.image}
+                alt={project.title}
+                className={`w-full rounded-lg bg-center bg-cover bg-no-repeat`}
+              />
+              <div className="w-full bg-black/45 rounded-b-lg absolute bottom-0">
                 <Link
                   target="_blank"
                   to={project.link}

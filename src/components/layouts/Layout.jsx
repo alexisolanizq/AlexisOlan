@@ -18,8 +18,8 @@ const Layout = () => {
       <Outlet />
       <Footer />
       {openMenu && (
-        <div className="fixed w-full h-dvh bg-white/75 dark:bg-black/75">
-          <button onClick={() => setOpenMenu(!openMenu)} className="z-50">
+        <div className="fixed z-20 w-full h-dvh bg-white/75 dark:bg-black/75">
+          <button onClick={() => setOpenMenu(!openMenu)}>
             <RiFullscreenExitFill className="text-3xl absolute right-11 md:right-40 top-7 md:top-10 bg-transparent dark:text-white" />
           </button>
 
