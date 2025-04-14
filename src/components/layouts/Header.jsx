@@ -35,7 +35,7 @@ const Header = ({ setOpenMenu = () => {}, openMenu, scroll, setScroll }) => {
     <header
       className={`fixed w-full z-10 ${
         scroll && "shadow-md bg-white/20 dark:bg-slate-900/50 backdrop-blur-lg"
-      }`}
+      } transition-all delay-150 duration-300 ease-in-out`}
     >
       <nav className="flex items-center w-5/6 mx-auto justify-between py-5 md:py-7">
         <Link className="z-50" to="/">

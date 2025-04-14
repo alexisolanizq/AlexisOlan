@@ -1,10 +1,5 @@
 export const links = [
   {
-    id: 0,
-    displayName: "Main",
-    link: "/",
-  },
-  {
     id: 1,
     displayName: "Portfolio",
     link: "/portfolio",
